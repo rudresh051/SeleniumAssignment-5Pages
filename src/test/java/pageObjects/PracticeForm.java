@@ -10,16 +10,19 @@ public class PracticeForm {
 	private WebDriver driver;
 	private Actions actions;
 	
-	public PracticeForm() {
+	public PracticeForm(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		actions = new Actions(driver);
 	}
 	
+	// Find all WebElements and put it here as variable
+	// create methods of operation to be performed on WebElements
+	
 	@FindBy(xpath = "//input[@id='firstName']") WebElement firstName;
 	@FindBy(xpath = "//input[@id='lastName']") WebElement lastName;
-	@FindBy(xpath = "//input[@id='userEmail']") WebElement nameEmail;
-	@FindBy(xpath = "//label[normalize-space()='Male']") WebElement gender;
+	@FindBy(xpath = "//input[@id='userEmail']") WebElement userEmail;
+	@FindBy(xpath = "//label[normalize-space()='Male']") WebElement userGender;
 	
 	
 	// Methods
@@ -32,7 +35,17 @@ public class PracticeForm {
 	}
 	
 	public void clickOnLastNameInput(String lastname) {
-		firstName.sendKeys(lastname);
+		lastName.sendKeys(lastname);
 	}
+	
+	public void clickOnEmailInput(String email) {
+		userEmail.sendKeys(email);
+	}
+	
+	public void clickOnGenderButton() {
+		userGender.click();
+	}
+	
+	
 	
 }

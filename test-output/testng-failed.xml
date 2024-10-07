@@ -10,10 +10,10 @@
     <classes>
       <class name="tests.PracticeFormTestCases">
         <methods>
-          <include name="TestCaseEnterLastName"/>
           <include name="setup"/>
+          <include name="tearDownSuite"/>
           <include name="setUpSuite"/>
-          <include name="TestCaseEnterFirstName"/>
+          <include name="TestCaseSelectGender"/>
         </methods>
       </class> <!-- tests.PracticeFormTestCases -->
     </classes>
