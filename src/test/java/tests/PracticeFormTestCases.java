@@ -24,7 +24,7 @@ public class PracticeFormTestCases extends BaseTest {
 	
 	@Test(priority = 2)
 	public void TestCaseEnterLastName() {
-		PracticeFormVariable.clickOnLastNameInput("Rudreshwar");
+		PracticeFormVariable.clickOnLastNameInput("Jha");
 	}
 	
 	@Test(priority = 3)
@@ -35,7 +35,21 @@ public class PracticeFormTestCases extends BaseTest {
 	@Test(priority = 4)
 	public void TestCaseSelectGender() throws InterruptedException {
 		PracticeFormVariable.clickOnGenderButton();
-		Thread.sleep(5000);
 	}
+	
+	@Test(priority = 5)
+	public void TestCaseEnterNumber() {
+		PracticeFormVariable.enterUserNumber();
+	}
+	
+	@Test(priority = 6)
+	public void TestCaseEnterSubjects() {
+		PracticeFormVariable.enterUserSubjects();
+	}
+	
+	
+	
+	
+	
 	
 }
