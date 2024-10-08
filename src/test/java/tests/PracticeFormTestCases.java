@@ -38,8 +38,9 @@ public class PracticeFormTestCases extends BaseTest {
 	}
 	
 	@Test(priority = 5)
-	public void TestCaseEnterNumber() {
+	public void TestCaseEnterNumber() throws InterruptedException {
 		PracticeFormVariable.enterUserNumber();
+		Thread.sleep(3000);
 	}
 	
 	@Test(priority = 6)
@@ -47,8 +48,21 @@ public class PracticeFormTestCases extends BaseTest {
 		PracticeFormVariable.enterUserSubjects();
 	}
 	
+	@Test(priority = 7)
+	public void TestCaseCheckHobbies1() {
+		PracticeFormVariable.checkUserHobbies1();
+	}
 	
+	@Test(priority = 8)
+	public void TestCaseCheckHobbies2() {
+		PracticeFormVariable.checkUserHobbies2();
+	}
 	
+	@Test(priority = 9)
+	public void TestCaseCheckHobbies3() throws InterruptedException {
+		PracticeFormVariable.checkUserHobbies3();
+		Thread.sleep(3000);
+	}
 	
 	
 	

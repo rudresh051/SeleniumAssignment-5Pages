@@ -1,45 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="6" passed="6" failed="0" skipped="0">
+<testng-results total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-08T18:45:55Z" name="Default suite" finished-at="2024-10-08T18:46:06Z" duration-ms="11625">
+  <suite started-at="2024-10-08T19:15:34Z" name="Default suite" finished-at="2024-10-08T19:15:53Z" duration-ms="18796">
     <groups>
     </groups>
-    <test started-at="2024-10-08T18:45:55Z" name="Default test" finished-at="2024-10-08T18:46:06Z" duration-ms="11625">
+    <test started-at="2024-10-08T19:15:34Z" name="Default test" finished-at="2024-10-08T19:15:53Z" duration-ms="18796">
       <class name="tests.PracticeFormTestCases">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:15:48Z" name="setUpSuite" finished-at="2024-10-09T00:15:55Z" duration-ms="6274" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:29Z" name="setUpSuite" finished-at="2024-10-09T00:45:34Z" duration-ms="5506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:15:55Z" name="setup" finished-at="2024-10-09T00:15:55Z" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:34Z" name="setup" finished-at="2024-10-09T00:45:34Z" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:15:55Z" name="TestCaseEnterFirstName" finished-at="2024-10-09T00:16:05Z" duration-ms="10465" status="PASS">
+        <test-method signature="TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:34Z" name="TestCaseEnterFirstName" finished-at="2024-10-09T00:45:45Z" duration-ms="10919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterFirstName -->
-        <test-method signature="TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:16:05Z" name="TestCaseEnterLastName" finished-at="2024-10-09T00:16:05Z" duration-ms="209" status="PASS">
+        <test-method signature="TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:45Z" name="TestCaseEnterLastName" finished-at="2024-10-09T00:45:46Z" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterLastName -->
-        <test-method signature="TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:16:05Z" name="TestCaseEnterUserEmail" finished-at="2024-10-09T00:16:06Z" duration-ms="316" status="PASS">
+        <test-method signature="TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:46Z" name="TestCaseEnterUserEmail" finished-at="2024-10-09T00:45:46Z" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterUserEmail -->
-        <test-method signature="TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:16:06Z" name="TestCaseSelectGender" finished-at="2024-10-09T00:16:06Z" duration-ms="172" status="PASS">
+        <test-method signature="TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:46Z" name="TestCaseSelectGender" finished-at="2024-10-09T00:45:46Z" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSelectGender -->
-        <test-method signature="TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:16:06Z" name="TestCaseEnterNumber" finished-at="2024-10-09T00:16:06Z" duration-ms="181" status="PASS">
+        <test-method signature="TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:46Z" name="TestCaseEnterNumber" finished-at="2024-10-09T00:45:49Z" duration-ms="3256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterNumber -->
-        <test-method signature="TestCaseEnterSubjects()[pri:6, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:16:06Z" name="TestCaseEnterSubjects" finished-at="2024-10-09T00:16:06Z" duration-ms="240" status="PASS">
+        <test-method signature="TestCaseEnterSubjects()[pri:6, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:49Z" name="TestCaseEnterSubjects" finished-at="2024-10-09T00:45:50Z" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterSubjects -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.PracticeFormTestCases@1339e7aa]" started-at="2024-10-09T00:16:06Z" name="tearDownSuite" finished-at="2024-10-09T00:16:07Z" duration-ms="315" status="PASS">
+        <test-method signature="TestCaseCheckHobbies1()[pri:7, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:50Z" name="TestCaseCheckHobbies1" finished-at="2024-10-09T00:45:50Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseCheckHobbies1 -->
+        <test-method signature="TestCaseCheckHobbies2()[pri:8, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:50Z" name="TestCaseCheckHobbies2" finished-at="2024-10-09T00:45:50Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseCheckHobbies2 -->
+        <test-method signature="TestCaseCheckHobbies3()[pri:9, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:50Z" name="TestCaseCheckHobbies3" finished-at="2024-10-09T00:45:53Z" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseCheckHobbies3 -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.PracticeFormTestCases@12359a82]" started-at="2024-10-09T00:45:53Z" name="tearDownSuite" finished-at="2024-10-09T00:45:53Z" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
