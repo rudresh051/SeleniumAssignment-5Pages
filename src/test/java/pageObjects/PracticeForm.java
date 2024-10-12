@@ -17,14 +17,13 @@ public class PracticeForm {
 	private WebDriver driver;
 	private Actions actions;
 	private WebDriverWait wait;
-	private Select sel;
+//	private Select sel;
 	
 	public PracticeForm(WebDriver driver) {
 		this.driver = driver;
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // 10 seconds wait
 		PageFactory.initElements(driver, this);
 		actions = new Actions(driver);
-		sel = new Select((WebElement) driver);
 	}
 	
 	// Find all WebElements and put it here as variable
@@ -37,9 +36,9 @@ public class PracticeForm {
 	@FindBy(xpath = "//input[@id='userNumber']") WebElement userNumber;
 	
 	@FindBy(xpath = "//input[@id='dateOfBirthInput']") WebElement userDateOfBirth;
-	@FindBy(xpath = "(//select[@class='react-datepicker__month-select'])[3]") WebElement userMonthDOB;
-	@FindBy(xpath = "(//select[@class='react-datepicker__year-select'])[95]") WebElement userYearDOB;
-	@FindBy(xpath = "react-datepicker__day react-datepicker__day--014 react-datepicker__day--weekend") WebElement userDateDOB;
+	@FindBy(xpath = "(//select[@class='react-datepicker__month-select'])") WebElement userMonthDOB;
+	@FindBy(xpath = "(//select[@class='react-datepicker__year-select'])") WebElement userYearDOB;
+	@FindBy(xpath = "(//div[@class='react-datepicker__day react-datepicker__day--014'])") WebElement userDateDateOfBirth;
 	
 	
 	
@@ -47,8 +46,11 @@ public class PracticeForm {
 	@FindBy(xpath = "//label[@for='hobbies-checkbox-1']") WebElement userHobbies1;
 	@FindBy(xpath = "//label[@for='hobbies-checkbox-2']") WebElement userHobbies2;
 	@FindBy(xpath = "//label[@for='hobbies-checkbox-3']") WebElement userHobbies3;
-	@FindBy(xpath = "//input[@id='uploadPicture']") WebElement userPicture;
-	@FindBy(xpath = "//input[@id='currentAddress']") WebElement userCurrentAddress;
+	
+	@FindBy(xpath = "//input[@id='uploadPicture']") WebElement userProfilePicture;
+	@FindBy(xpath = "//textarea[@id='currentAddress']") WebElement userCurrentAddress;
+	@FindBy(xpath = "(//div[@class=' css-1hwfws3'])[1]") WebElement userState;
+	@FindBy(xpath = "(//div[@class=' css-1hwfws3'])[2]") WebElement userCity;
 	
 	
 	
@@ -96,10 +98,21 @@ public class PracticeForm {
 	}
 	
 	
-	public void enterDateOfBirth() {
+	public void enterDateOfBirth() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView()", userDateOfBirth);
 		userDateOfBirth.click();
+		Thread.sleep(3000);
+		Select sel1 = new Select(userMonthDOB);
+		sel1.selectByVisibleText("March");
+		
+		Select sel2 = new Select(userYearDOB);
+		sel2.selectByValue("1995");
+
+		
+		userDateDateOfBirth.click();
+		Thread.sleep(3000);
+		
 	}
 	
 	
@@ -112,24 +125,42 @@ public class PracticeForm {
 	}
 	
 	public void checkUserHobbies1() {
-//		JavascriptExecutor js = (JavascriptExecutor)driver;
-//		js.executeScript("arguments[0].scrollIntoView()", userHobbies1);
-//		wait.until(ExpectedConditions.visibilityOf(userHobbies1));
 		userHobbies1.click();
 	}
 	
 	public void checkUserHobbies2() {
-//		JavascriptExecutor js = (JavascriptExecutor)driver;
-//		js.executeScript("arguments[0].scrollIntoView()", userHobbies2);
-//		wait.until(ExpectedConditions.visibilityOf(userHobbies2));
 		userHobbies2.click();
 	}
 	
 	public void checkUserHobbies3() {
-//		JavascriptExecutor js = (JavascriptExecutor)driver;
-//		js.executeScript("arguments[0].scrollIntoView()", userHobbies3);
-//		wait.until(ExpectedConditions.visibilityOf(userHobbies3));
 		userHobbies3.click();
 	}
+	
+	
+	public void uploadProfilePicture() throws InterruptedException {
+		userProfilePicture.sendKeys("C:\\selsc\\upload_file.png");
+		Thread.sleep(3000);
+	}
+	
+	public void enterUserCurrentAddress(String address) {
+		userCurrentAddress.sendKeys(address);
+	}
+	
+	
+	public void enterUserStateAndCity() throws InterruptedException {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView()", userState);
+		
+		userState.click();
+		userState.sendKeys("Uttar");
+		userState.sendKeys(Keys.ENTER);
+		
+		userCity.click();
+		userCity.sendKeys("Agra");
+		userCity.sendKeys(Keys.ENTER);
+		Thread.sleep(3000);
+	}
+	
+	
 	
 }
