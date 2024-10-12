@@ -49,8 +49,11 @@ public class PracticeForm {
 	
 	@FindBy(xpath = "//input[@id='uploadPicture']") WebElement userProfilePicture;
 	@FindBy(xpath = "//textarea[@id='currentAddress']") WebElement userCurrentAddress;
-	@FindBy(xpath = "(//div[@class=' css-1hwfws3'])[1]") WebElement userState;
-	@FindBy(xpath = "(//div[@class=' css-1hwfws3'])[2]") WebElement userCity;
+	
+	
+	@FindBy(xpath = "//input[@id='react-select-3-input']") WebElement userState;
+	@FindBy(xpath = "//input[@id='react-select-4-input']") WebElement userCity;
+	@FindBy(xpath = "//button[@id='submit']") WebElement submitButton;
 	
 	
 	
@@ -150,15 +153,19 @@ public class PracticeForm {
 	public void enterUserStateAndCity() throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView()", userState);
-		
-		userState.click();
-		userState.sendKeys("Uttar");
+		Thread.sleep(3000);
+		userState.sendKeys("Uttar Pradesh");
+		Thread.sleep(3000);
 		userState.sendKeys(Keys.ENTER);
+		Thread.sleep(3000);
 		
-		userCity.click();
+		
 		userCity.sendKeys("Agra");
+		Thread.sleep(3000);
 		userCity.sendKeys(Keys.ENTER);
 		Thread.sleep(3000);
+		submitButton.click();
+		
 	}
 	
 	
