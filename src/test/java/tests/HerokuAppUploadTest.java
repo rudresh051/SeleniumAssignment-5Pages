@@ -26,7 +26,7 @@ public class HerokuAppUploadTest extends BaseTest{
 	    
 	}
 	
-	@Test(priority = 1, groups = {"heroku"})
+	@Test(priority = 14, groups = {"heroku"})
 	public void TestCaseVerifyFileUpload() {
 		String filePath = "C:\\selsc\\upload_file.png";
 		

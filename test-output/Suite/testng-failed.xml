@@ -1,64 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="DemoQATests">
-    <groups>
-      <run>
-        <include name="demoqa"/>
-      </run>
-    </groups>
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
     <classes>
       <class name="tests.PracticeFormTestCases"/>
-    </classes>
-  </test> <!-- DemoQATests -->
-  <test name="HerokuTests">
-    <groups>
-      <run>
-        <include name="heroku"/>
-      </run>
-    </groups>
-    <classes>
       <class name="tests.HerokuAppUploadTest"/>
     </classes>
-  </test> <!-- HerokuTests -->
-  <test name="DemoQATests(failed)">
-    <groups>
-      <run>
-        <include name="demoqa"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="tests.PracticeFormTestCases">
-        <methods>
-          <include name="TestCaseEnterNumber"/>
-          <include name="TestCaseEnterUserSateAndCity"/>
-          <include name="TestCaseUploadProfilePicture"/>
-          <include name="TestCaseCheckHobbies2"/>
-          <include name="TestCaseCheckHobbies3"/>
-          <include name="TestCaseCheckHobbies1"/>
-          <include name="TestCaseEnterFirstName"/>
-          <include name="TestCaseEnterUserAddress"/>
-          <include name="TestCaseEnterDOB"/>
-          <include name="TestCaseSelectGender"/>
-          <include name="TestCaseEnterUserEmail"/>
-          <include name="TestCaseEnterLastName"/>
-          <include name="TestCaseEnterSubjects"/>
-        </methods>
-      </class> <!-- tests.PracticeFormTestCases -->
-    </classes>
-  </test> <!-- DemoQATests(failed) -->
-  <test name="HerokuTests(failed)">
-    <groups>
-      <run>
-        <include name="heroku"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="tests.HerokuAppUploadTest">
-        <methods>
-          <include name="TestCaseVerifyFileUpload"/>
-        </methods>
-      </class> <!-- tests.HerokuAppUploadTest -->
-    </classes>
-  </test> <!-- HerokuTests(failed) -->
+  </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->
