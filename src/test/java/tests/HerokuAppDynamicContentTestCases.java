@@ -2,11 +2,12 @@ package tests;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
+import base.BaseTest;
 import pageObjects.HerokuAppDynamicContent;
-import pageObjects.HerokuAppUpload;
 
-public class HerokuAppDynamicContentTestCases {
+public class HerokuAppDynamicContentTestCases extends BaseTest{
 	private HerokuAppDynamicContent herokuAppDynamicContentVariable;
 	
 	@BeforeClass
@@ -18,16 +19,19 @@ public class HerokuAppDynamicContentTestCases {
 		    }
 		    
 		 // Initialize HerokuAppDynamicContent page object
-		    herokuAppDynamicContentVariable = new HerokuAppDynamicContent(null)
-		    
-		}
-	
+		    herokuAppDynamicContentVariable = new HerokuAppDynamicContent(driver);
+	}
 	
 	@Test(priority = 15)
-	public void TestCaseVerifyDynamicContent{
-		
-	
-	
+	public void TestCaseVerifyContent() throws InterruptedException {
+		herokuAppDynamicContentVariable.clickOnButton();
+		Thread.sleep(3000);
+		driver.navigate().refresh();
+		Thread.sleep(3000);
 	}
+	
+
+	
+	
 	
 }

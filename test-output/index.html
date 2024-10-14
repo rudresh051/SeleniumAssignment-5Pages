@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">15 methods,   15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -167,6 +167,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.HerokuAppDynamicContentTestCases" class="method navigator-link" hash-for-method="TestCaseVerifyContent">TestCaseVerifyContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.HerokuAppUploadTest" class="method navigator-link" hash-for-method="TestCaseVerifyFileUpload">TestCaseVerifyFileUpload</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -182,6 +187,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HerokuAppDynamicContentTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCaseVerifyContent">
+                  </a> <!-- TestCaseVerifyContent -->
+                  <span class="method-name">TestCaseVerifyContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -310,6 +330,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;tests.PracticeFormTestCases&quot;/&gt;
       &lt;class name=&quot;tests.HerokuAppUploadTest&quot;/&gt;
+      &lt;class name=&quot;tests.HerokuAppDynamicContentTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -323,7 +344,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -413,68 +434,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(14);
+data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TestCaseEnterUserSateAndCity')
 data.setCell(0, 2, 'tests.PracticeFormTestCases')
-data.setCell(0, 3, 15594);
+data.setCell(0, 3, 15568);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TestCaseEnterDOB')
 data.setCell(1, 2, 'tests.PracticeFormTestCases')
-data.setCell(1, 3, 9494);
+data.setCell(1, 3, 9470);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TestCaseVerifyFileUpload')
-data.setCell(2, 2, 'tests.HerokuAppUploadTest')
-data.setCell(2, 3, 4022);
+data.setCell(2, 1, 'TestCaseVerifyContent')
+data.setCell(2, 2, 'tests.HerokuAppDynamicContentTestCases')
+data.setCell(2, 3, 7630);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TestCaseEnterFirstName')
-data.setCell(3, 2, 'tests.PracticeFormTestCases')
-data.setCell(3, 3, 3256);
+data.setCell(3, 1, 'TestCaseVerifyFileUpload')
+data.setCell(3, 2, 'tests.HerokuAppUploadTest')
+data.setCell(3, 3, 3739);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'TestCaseUploadProfilePicture')
+data.setCell(4, 1, 'TestCaseEnterFirstName')
 data.setCell(4, 2, 'tests.PracticeFormTestCases')
-data.setCell(4, 3, 3069);
+data.setCell(4, 3, 3233);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'TestCaseCheckHobbies3')
 data.setCell(5, 2, 'tests.PracticeFormTestCases')
-data.setCell(5, 3, 3066);
+data.setCell(5, 3, 3070);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TestCaseEnterSubjects')
+data.setCell(6, 1, 'TestCaseUploadProfilePicture')
 data.setCell(6, 2, 'tests.PracticeFormTestCases')
-data.setCell(6, 3, 219);
+data.setCell(6, 3, 3053);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'TestCaseEnterUserEmail')
+data.setCell(7, 1, 'TestCaseEnterSubjects')
 data.setCell(7, 2, 'tests.PracticeFormTestCases')
-data.setCell(7, 3, 161);
+data.setCell(7, 3, 217);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'TestCaseEnterNumber')
+data.setCell(8, 1, 'TestCaseEnterUserEmail')
 data.setCell(8, 2, 'tests.PracticeFormTestCases')
-data.setCell(8, 3, 156);
+data.setCell(8, 3, 144);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'TestCaseSelectGender')
+data.setCell(9, 1, 'TestCaseEnterUserAddress')
 data.setCell(9, 2, 'tests.PracticeFormTestCases')
-data.setCell(9, 3, 141);
+data.setCell(9, 3, 134);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'TestCaseEnterLastName')
+data.setCell(10, 1, 'TestCaseEnterNumber')
 data.setCell(10, 2, 'tests.PracticeFormTestCases')
-data.setCell(10, 3, 107);
+data.setCell(10, 3, 116);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'TestCaseEnterUserAddress')
+data.setCell(11, 1, 'TestCaseSelectGender')
 data.setCell(11, 2, 'tests.PracticeFormTestCases')
-data.setCell(11, 3, 104);
+data.setCell(11, 3, 106);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'TestCaseCheckHobbies1')
+data.setCell(12, 1, 'TestCaseEnterLastName')
 data.setCell(12, 2, 'tests.PracticeFormTestCases')
-data.setCell(12, 3, 48);
+data.setCell(12, 3, 103);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'TestCaseCheckHobbies2')
 data.setCell(13, 2, 'tests.PracticeFormTestCases')
-data.setCell(13, 3, 46);
+data.setCell(13, 3, 48);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestCaseCheckHobbies1')
+data.setCell(14, 2, 'tests.PracticeFormTestCases')
+data.setCell(14, 3, 46);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -489,9 +514,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.HerokuAppDynamicContentTestCases</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setUpSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">tests.HerokuAppUploadTest</span>
               <div class="ignored-methods-div">
@@ -516,77 +550,88 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17138 ms</span>
+                <span class="method-start">19387 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterFirstName</span>
-                <span class="method-start">17174 ms</span>
+                <span class="method-start">19420 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterLastName</span>
-                <span class="method-start">20431 ms</span>
+                <span class="method-start">22653 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterUserEmail</span>
-                <span class="method-start">20539 ms</span>
+                <span class="method-start">22756 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseSelectGender</span>
-                <span class="method-start">20701 ms</span>
+                <span class="method-start">22901 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterNumber</span>
-                <span class="method-start">20842 ms</span>
+                <span class="method-start">23017 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterDOB</span>
-                <span class="method-start">20999 ms</span>
+                <span class="method-start">23134 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterSubjects</span>
-                <span class="method-start">30493 ms</span>
+                <span class="method-start">32604 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseCheckHobbies1</span>
-                <span class="method-start">30712 ms</span>
+                <span class="method-start">32821 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseCheckHobbies2</span>
-                <span class="method-start">30766 ms</span>
+                <span class="method-start">32870 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseCheckHobbies3</span>
-                <span class="method-start">30812 ms</span>
+                <span class="method-start">32918 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseUploadProfilePicture</span>
-                <span class="method-start">33881 ms</span>
+                <span class="method-start">35988 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterUserAddress</span>
-                <span class="method-start">36950 ms</span>
+                <span class="method-start">39041 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestCaseEnterUserSateAndCity</span>
-                <span class="method-start">37054 ms</span>
+                <span class="method-start">39175 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.HerokuAppUploadTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUpHerokuApp</span>
-                <span class="method-start">52648 ms</span>
+                <span class="method-start">54744 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TestCaseVerifyFileUpload</span>
-                <span class="method-start">52771 ms</span>
+                <span class="method-start">54875 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HerokuAppDynamicContentTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpDynamicContent</span>
+                <span class="method-start">58615 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCaseVerifyContent</span>
+                <span class="method-start">58709 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.PracticeFormTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDownSuite</span>
-                <span class="method-start">56809 ms</span>
+                <span class="method-start">66386 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

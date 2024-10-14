@@ -5,6 +5,7 @@
     <classes>
       <class name="tests.PracticeFormTestCases"/>
       <class name="tests.HerokuAppUploadTest"/>
+      <class name="tests.HerokuAppDynamicContentTestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
