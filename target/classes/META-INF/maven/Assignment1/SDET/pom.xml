@@ -13,7 +13,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							testng.xml
+							testng5Pages.xml
 						</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>

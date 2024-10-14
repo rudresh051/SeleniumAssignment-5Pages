@@ -3,7 +3,37 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
+      <class name="tests.HerokuAppUploadTest"/>
       <class name="tests.PracticeFormTestCases"/>
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="tests.HerokuAppUploadTest">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="setUpSuite"/>
+          <include name="setUpHerokuApp"/>
+        </methods>
+      </class> <!-- tests.HerokuAppUploadTest -->
+      <class name="tests.PracticeFormTestCases">
+        <methods>
+          <include name="TestCaseEnterNumber"/>
+          <include name="TestCaseEnterUserSateAndCity"/>
+          <include name="TestCaseUploadProfilePicture"/>
+          <include name="TestCaseCheckHobbies2"/>
+          <include name="TestCaseCheckHobbies3"/>
+          <include name="TestCaseCheckHobbies1"/>
+          <include name="TestCaseEnterFirstName"/>
+          <include name="TestCaseEnterUserAddress"/>
+          <include name="TestCaseEnterDOB"/>
+          <include name="TestCaseSelectGender"/>
+          <include name="TestCaseEnterUserEmail"/>
+          <include name="TestCaseEnterLastName"/>
+          <include name="setup"/>
+          <include name="TestCaseEnterSubjects"/>
+        </methods>
+      </class> <!-- tests.PracticeFormTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

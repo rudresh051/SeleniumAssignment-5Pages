@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 0.646 s <<< FAILURE! - in TestSuite
+tests.PracticeFormTestCases.TestCaseEnterFirstName  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.clickOnFirstNameInput()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterFirstName(PracticeFormTestCases.java:19)
+
+tests.PracticeFormTestCases.TestCaseEnterLastName  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.clickOnLastNameInput(String)" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterLastName(PracticeFormTestCases.java:25)
+
+tests.PracticeFormTestCases.TestCaseEnterUserEmail  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.clickOnEmailInput(String)" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterUserEmail(PracticeFormTestCases.java:30)
+
+tests.PracticeFormTestCases.TestCaseSelectGender  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.clickOnGenderButton()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseSelectGender(PracticeFormTestCases.java:35)
+
+tests.PracticeFormTestCases.TestCaseEnterNumber  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.enterUserNumber()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterNumber(PracticeFormTestCases.java:40)
+
+tests.PracticeFormTestCases.TestCaseEnterDOB  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.enterDateOfBirth()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterDOB(PracticeFormTestCases.java:45)
+
+tests.PracticeFormTestCases.TestCaseEnterSubjects  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.enterUserSubjects()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterSubjects(PracticeFormTestCases.java:51)
+
+tests.PracticeFormTestCases.TestCaseCheckHobbies1  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.checkUserHobbies1()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseCheckHobbies1(PracticeFormTestCases.java:56)
+
+tests.PracticeFormTestCases.TestCaseCheckHobbies2  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.checkUserHobbies2()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseCheckHobbies2(PracticeFormTestCases.java:61)
+
+tests.PracticeFormTestCases.TestCaseCheckHobbies3  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.checkUserHobbies3()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseCheckHobbies3(PracticeFormTestCases.java:66)
+
+tests.PracticeFormTestCases.TestCaseUploadProfilePicture  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.uploadProfilePicture()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseUploadProfilePicture(PracticeFormTestCases.java:72)
+
+tests.PracticeFormTestCases.TestCaseEnterUserAddress  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.enterUserCurrentAddress(String)" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterUserAddress(PracticeFormTestCases.java:77)
+
+tests.PracticeFormTestCases.TestCaseEnterUserSateAndCity  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "pageObjects.PracticeForm.enterUserStateAndCity()" because "this.PracticeFormVariable" is null
+	at tests.PracticeFormTestCases.TestCaseEnterUserSateAndCity(PracticeFormTestCases.java:83)
+
+tests.HerokuAppUploadTest.TestCaseVerifyFileUpload  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.switchTo()" because "tests.HerokuAppUploadTest.driver" is null
+	at tests.HerokuAppUploadTest.TestCaseVerifyFileUpload(HerokuAppUploadTest.java:19)
+
