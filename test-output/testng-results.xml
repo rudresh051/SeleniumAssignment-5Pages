@@ -1,132 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="18" passed="18" failed="0" skipped="0">
+<testng-results total="20" passed="18" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-15T18:52:07Z" name="Suite" finished-at="2024-10-15T18:52:58Z" duration-ms="50625">
+  <suite started-at="2024-10-15T19:10:51Z" name="Suite" finished-at="2024-10-15T19:11:40Z" duration-ms="49019">
     <groups>
       <group name="demoqa">
-        <method signature="PracticeFormTestCases.TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseCheckHobbies1" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseCheckHobbies2" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseCheckHobbies3" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterDOB" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterFirstName" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterLastName" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterNumber" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterSubjects" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterUserAddress" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterUserEmail" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterUserSateAndCity" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseSelectGender" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseUploadProfilePicture" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseCheckHobbies1" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseCheckHobbies2" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseCheckHobbies3" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterDOB" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterFirstName" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterLastName" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterNumber" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterSubjects" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterUserAddress" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterUserEmail" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseEnterUserSateAndCity" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseSelectGender" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@2796aeae]" name="TestCaseUploadProfilePicture" class="tests.PracticeFormTestCases"/>
       </group> <!-- demoqa -->
       <group name="heroku">
-        <method signature="HerokuAppUploadTest.TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@56673b2c]" name="TestCaseVerifyFileUpload" class="tests.HerokuAppUploadTest"/>
+        <method signature="HerokuAppUploadTest.TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@b4711e2]" name="TestCaseVerifyFileUpload" class="tests.HerokuAppUploadTest"/>
       </group> <!-- heroku -->
     </groups>
-    <test started-at="2024-10-15T18:52:07Z" name="Test" finished-at="2024-10-15T18:52:58Z" duration-ms="50625">
+    <test started-at="2024-10-15T19:10:51Z" name="Test" finished-at="2024-10-15T19:11:40Z" duration-ms="49019">
       <class name="tests.HerokuAppUploadTest">
-        <test-method is-config="true" signature="setUpHerokuApp()[pri:0, instance:tests.HerokuAppUploadTest@56673b2c]" started-at="2024-10-16T00:22:43Z" name="setUpHerokuApp" finished-at="2024-10-16T00:22:43Z" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="setUpHerokuApp()[pri:0, instance:tests.HerokuAppUploadTest@b4711e2]" started-at="2024-10-16T00:41:26Z" name="setUpHerokuApp" finished-at="2024-10-16T00:41:26Z" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpHerokuApp -->
-        <test-method signature="TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@56673b2c]" started-at="2024-10-16T00:22:43Z" name="TestCaseVerifyFileUpload" finished-at="2024-10-16T00:22:47Z" duration-ms="3832" status="PASS">
+        <test-method signature="TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@b4711e2]" started-at="2024-10-16T00:41:26Z" name="TestCaseVerifyFileUpload" finished-at="2024-10-16T00:41:31Z" duration-ms="5170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyFileUpload -->
       </class> <!-- tests.HerokuAppUploadTest -->
       <class name="tests.PracticeFormTestCases">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:21:38Z" name="setUpSuite" finished-at="2024-10-16T00:22:07Z" duration-ms="29619" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:21Z" name="setUpSuite" finished-at="2024-10-16T00:40:51Z" duration-ms="29891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:07Z" name="setup" finished-at="2024-10-16T00:22:07Z" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:51Z" name="setup" finished-at="2024-10-16T00:40:51Z" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:07Z" name="TestCaseEnterFirstName" finished-at="2024-10-16T00:22:11Z" duration-ms="3231" status="PASS">
+        <test-method signature="TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:51Z" name="TestCaseEnterFirstName" finished-at="2024-10-16T00:40:54Z" duration-ms="3205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterFirstName -->
-        <test-method signature="TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterLastName" finished-at="2024-10-16T00:22:11Z" duration-ms="100" status="PASS">
+        <test-method signature="TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:54Z" name="TestCaseEnterLastName" finished-at="2024-10-16T00:40:54Z" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterLastName -->
-        <test-method signature="TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterUserEmail" finished-at="2024-10-16T00:22:11Z" duration-ms="116" status="PASS">
+        <test-method signature="TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:54Z" name="TestCaseEnterUserEmail" finished-at="2024-10-16T00:40:54Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterUserEmail -->
-        <test-method signature="TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseSelectGender" finished-at="2024-10-16T00:22:11Z" duration-ms="119" status="PASS">
+        <test-method signature="TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:54Z" name="TestCaseSelectGender" finished-at="2024-10-16T00:40:54Z" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSelectGender -->
-        <test-method signature="TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterNumber" finished-at="2024-10-16T00:22:11Z" duration-ms="147" status="PASS">
+        <test-method signature="TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:54Z" name="TestCaseEnterNumber" finished-at="2024-10-16T00:40:54Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterNumber -->
-        <test-method signature="TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterDOB" finished-at="2024-10-16T00:22:21Z" duration-ms="9477" status="PASS">
+        <test-method signature="TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:40:54Z" name="TestCaseEnterDOB" finished-at="2024-10-16T00:41:04Z" duration-ms="9447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterDOB -->
-        <test-method signature="TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseEnterSubjects" finished-at="2024-10-16T00:22:21Z" duration-ms="214" status="PASS">
+        <test-method signature="TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:04Z" name="TestCaseEnterSubjects" finished-at="2024-10-16T00:41:04Z" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterSubjects -->
-        <test-method signature="TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseCheckHobbies1" finished-at="2024-10-16T00:22:21Z" duration-ms="47" status="PASS">
+        <test-method signature="TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:04Z" name="TestCaseCheckHobbies1" finished-at="2024-10-16T00:41:04Z" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseCheckHobbies1 -->
-        <test-method signature="TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseCheckHobbies2" finished-at="2024-10-16T00:22:21Z" duration-ms="61" status="PASS">
+        <test-method signature="TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:04Z" name="TestCaseCheckHobbies2" finished-at="2024-10-16T00:41:04Z" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseCheckHobbies2 -->
-        <test-method signature="TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseCheckHobbies3" finished-at="2024-10-16T00:22:24Z" duration-ms="3065" status="PASS">
+        <test-method signature="TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:04Z" name="TestCaseCheckHobbies3" finished-at="2024-10-16T00:41:07Z" duration-ms="3058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseCheckHobbies3 -->
-        <test-method signature="TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:24Z" name="TestCaseUploadProfilePicture" finished-at="2024-10-16T00:22:27Z" duration-ms="3078" status="PASS">
+        <test-method signature="TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:07Z" name="TestCaseUploadProfilePicture" finished-at="2024-10-16T00:41:10Z" duration-ms="3098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseUploadProfilePicture -->
-        <test-method signature="TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:27Z" name="TestCaseEnterUserAddress" finished-at="2024-10-16T00:22:27Z" duration-ms="126" status="PASS">
+        <test-method signature="TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:10Z" name="TestCaseEnterUserAddress" finished-at="2024-10-16T00:41:10Z" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterUserAddress -->
-        <test-method signature="TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:27Z" name="TestCaseEnterUserSateAndCity" finished-at="2024-10-16T00:22:43Z" duration-ms="15500" status="PASS">
+        <test-method signature="TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:10Z" name="TestCaseEnterUserSateAndCity" finished-at="2024-10-16T00:41:26Z" duration-ms="15500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterUserSateAndCity -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:58Z" name="tearDownSuite" finished-at="2024-10-16T00:22:58Z" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.PracticeFormTestCases@2796aeae]" started-at="2024-10-16T00:41:40Z" name="tearDownSuite" finished-at="2024-10-16T00:41:40Z" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
       </class> <!-- tests.PracticeFormTestCases -->
       <class name="tests.HerokuAppDynamicContentTestCases">
-        <test-method is-config="true" signature="setUpDynamicContent()[pri:0, instance:tests.HerokuAppDynamicContentTestCases@2796aeae]" started-at="2024-10-16T00:22:47Z" name="setUpDynamicContent" finished-at="2024-10-16T00:22:47Z" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="setUpDynamicContent()[pri:0, instance:tests.HerokuAppDynamicContentTestCases@1fa1cab1]" started-at="2024-10-16T00:41:31Z" name="setUpDynamicContent" finished-at="2024-10-16T00:41:31Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDynamicContent -->
-        <test-method signature="TestCaseVerifyContent()[pri:15, instance:tests.HerokuAppDynamicContentTestCases@2796aeae]" started-at="2024-10-16T00:22:47Z" name="TestCaseVerifyContent" finished-at="2024-10-16T00:22:54Z" duration-ms="7375" status="PASS">
+        <test-method signature="TestCaseVerifyContent()[pri:15, instance:tests.HerokuAppDynamicContentTestCases@1fa1cab1]" started-at="2024-10-16T00:41:31Z" name="TestCaseVerifyContent" finished-at="2024-10-16T00:41:39Z" duration-ms="7633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyContent -->
       </class> <!-- tests.HerokuAppDynamicContentTestCases -->
       <class name="tests.HerokuAppDynamicControlsTestCases">
-        <test-method is-config="true" signature="setUpDynamicControl()[pri:0, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:54Z" name="setUpDynamicControl" finished-at="2024-10-16T00:22:54Z" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="setUpDynamicControl()[pri:0, instance:tests.HerokuAppDynamicControlsTestCases@70f02c32]" started-at="2024-10-16T00:41:39Z" name="setUpDynamicControl" finished-at="2024-10-16T00:41:39Z" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDynamicControl -->
-        <test-method signature="TestCaseVerifyCheckbox()[pri:16, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:54Z" name="TestCaseVerifyCheckbox" finished-at="2024-10-16T00:22:55Z" duration-ms="380" status="PASS">
+        <test-method signature="TestCaseVerifyCheckbox()[pri:16, instance:tests.HerokuAppDynamicControlsTestCases@70f02c32]" started-at="2024-10-16T00:41:39Z" name="TestCaseVerifyCheckbox" finished-at="2024-10-16T00:41:39Z" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyCheckbox -->
-        <test-method signature="TestCaseClickRemoveButton()[pri:17, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:55Z" name="TestCaseClickRemoveButton" finished-at="2024-10-16T00:22:55Z" duration-ms="49" status="PASS">
+        <test-method signature="TestCaseClickRemoveButton()[pri:17, instance:tests.HerokuAppDynamicControlsTestCases@70f02c32]" started-at="2024-10-16T00:41:39Z" name="TestCaseClickRemoveButton" finished-at="2024-10-16T00:41:39Z" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickRemoveButton -->
-        <test-method signature="TestCaseClickAddButton()[pri:18, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:55Z" name="TestCaseClickAddButton" finished-at="2024-10-16T00:22:58Z" duration-ms="3293" status="PASS">
+        <test-method signature="TestCaseClickAddButton()[pri:18, instance:tests.HerokuAppDynamicControlsTestCases@70f02c32]" started-at="2024-10-16T00:41:39Z" name="TestCaseClickAddButton" finished-at="2024-10-16T00:41:40Z" duration-ms="29" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //p[text()='It's gone!'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//p[text()='It's gone!']' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1871a32678ce16360af3c20a3d8f3849, findElement {value=//p[text()='It's gone!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59796/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1871a32678ce16360af3c20a3d8f3849]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //p[text()='It's gone!'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//p[text()='It's gone!']' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1871a32678ce16360af3c20a3d8f3849, findElement {value=//p[text()='It's gone!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59796/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1871a32678ce16360af3c20a3d8f3849
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObjects.HerokuAppDynamicControls.clickOnAddButton(HerokuAppDynamicControls.java:43)
+	at tests.HerokuAppDynamicControlsTestCases.TestCaseClickAddButton(HerokuAppDynamicControlsTestCases.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseClickAddButton -->
+        <test-method signature="TestCaseClickEnableButton()[pri:19, instance:tests.HerokuAppDynamicControlsTestCases@70f02c32]" started-at="2024-10-16T00:41:40Z" name="TestCaseClickEnableButton" finished-at="2024-10-16T00:41:40Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickEnableButton -->
+        <test-method signature="TestCaseClickDisableButton()[pri:20, instance:tests.HerokuAppDynamicControlsTestCases@70f02c32]" started-at="2024-10-16T00:41:40Z" name="TestCaseClickDisableButton" finished-at="2024-10-16T00:41:40Z" duration-ms="18" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //p[text()='It's enabled!'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//p[text()='It's enabled!']' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1871a32678ce16360af3c20a3d8f3849, findElement {value=//p[text()='It's enabled!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59796/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1871a32678ce16360af3c20a3d8f3849]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //p[text()='It's enabled!'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//p[text()='It's enabled!']' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1871a32678ce16360af3c20a3d8f3849, findElement {value=//p[text()='It's enabled!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\rudre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59796/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1871a32678ce16360af3c20a3d8f3849
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObjects.HerokuAppDynamicControls.clickOnDisableButton(HerokuAppDynamicControls.java:52)
+	at tests.HerokuAppDynamicControlsTestCases.TestCaseClickDisableButton(HerokuAppDynamicControlsTestCases.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickDisableButton -->
       </class> <!-- tests.HerokuAppDynamicControlsTestCases -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

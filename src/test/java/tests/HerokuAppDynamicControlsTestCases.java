@@ -40,6 +40,15 @@ public class HerokuAppDynamicControlsTestCases extends BaseTest{
 		herokuAppDynamicControlsVariable.clickOnAddButton();
 	}
 	
+	@Test(priority = 19)
+	public void TestCaseClickEnableButton() {
+		herokuAppDynamicControlsVariable.clickOnEnableButton();
+	}
+	
+	@Test(priority = 20)
+	public void TestCaseClickDisableButton() throws InterruptedException {
+		herokuAppDynamicControlsVariable.clickOnDisableButton();
+	}
 	
 	
 }

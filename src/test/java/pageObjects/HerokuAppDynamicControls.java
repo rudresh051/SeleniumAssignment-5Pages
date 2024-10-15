@@ -23,7 +23,11 @@ public class HerokuAppDynamicControls {
 	@FindBy(xpath = "//input[@type='checkbox']") WebElement checkBoxButton;
 	@FindBy(xpath = "//button[text()='Remove']") WebElement removeButton;
 	@FindBy(xpath = "//button[text()='Add']") WebElement addButton;
-	@FindBy(id = "message") WebElement goneText;
+	@FindBy(xpath = "//button[text()='Enable']") WebElement enableButton;
+	@FindBy(xpath = "//button[text()='Disable']") WebElement disableButton;
+	@FindBy(xpath = "//p[text()='It's gone!']") WebElement goneText;
+	@FindBy(xpath = "//p[text()='It's enabled!']") WebElement enabledText;
+	@FindBy(xpath = "//p[text()='It's disabled!']") WebElement disabledText;
 	
 	
 	// Methods
@@ -38,6 +42,17 @@ public class HerokuAppDynamicControls {
 	public void clickOnAddButton() {
 		wait.until(ExpectedConditions.visibilityOf(goneText));
 		addButton.click();
+	}
+	
+	public void clickOnEnableButton() {
+		enableButton.click();
+	}
+	
+	public void clickOnDisableButton() throws InterruptedException {
+		wait.until(ExpectedConditions.visibilityOf(enabledText));
+		disableButton.click();
+		wait.until(ExpectedConditions.visibilityOf(disabledText));
+		Thread.sleep(3000);
 	}
 	
 	

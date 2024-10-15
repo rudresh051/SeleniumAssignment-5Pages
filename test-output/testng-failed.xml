@@ -9,4 +9,32 @@
       <class name="tests.HerokuAppDynamicControlsTestCases"/>
     </classes>
   </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="tests.HerokuAppDynamicContentTestCases">
+        <methods>
+          <include name="setUpDynamicContent"/>
+        </methods>
+      </class> <!-- tests.HerokuAppDynamicContentTestCases -->
+      <class name="tests.PracticeFormTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- tests.PracticeFormTestCases -->
+      <class name="tests.HerokuAppDynamicControlsTestCases">
+        <methods>
+          <include name="TestCaseClickAddButton"/>
+          <include name="TestCaseClickDisableButton"/>
+          <include name="setUpDynamicControl"/>
+        </methods>
+      </class> <!-- tests.HerokuAppDynamicControlsTestCases -->
+      <class name="tests.HerokuAppUploadTest">
+        <methods>
+          <include name="setUpHerokuApp"/>
+        </methods>
+      </class> <!-- tests.HerokuAppUploadTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
