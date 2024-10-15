@@ -1,124 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="16" passed="16" failed="0" skipped="0">
+<testng-results total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-15T18:23:48Z" name="Suite" finished-at="2024-10-15T18:24:35Z" duration-ms="47659">
+  <suite started-at="2024-10-15T18:52:07Z" name="Suite" finished-at="2024-10-15T18:52:58Z" duration-ms="50625">
     <groups>
       <group name="demoqa">
-        <method signature="PracticeFormTestCases.TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseCheckHobbies1" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseCheckHobbies2" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseCheckHobbies3" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterDOB" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterFirstName" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterLastName" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterNumber" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterSubjects" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterUserAddress" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterUserEmail" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseEnterUserSateAndCity" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseSelectGender" class="tests.PracticeFormTestCases"/>
-        <method signature="PracticeFormTestCases.TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@21ba0741]" name="TestCaseUploadProfilePicture" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseCheckHobbies1" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseCheckHobbies2" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseCheckHobbies3" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterDOB" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterFirstName" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterLastName" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterNumber" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterSubjects" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterUserAddress" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterUserEmail" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseEnterUserSateAndCity" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseSelectGender" class="tests.PracticeFormTestCases"/>
+        <method signature="PracticeFormTestCases.TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@172b013]" name="TestCaseUploadProfilePicture" class="tests.PracticeFormTestCases"/>
       </group> <!-- demoqa -->
       <group name="heroku">
-        <method signature="HerokuAppUploadTest.TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@58ce9668]" name="TestCaseVerifyFileUpload" class="tests.HerokuAppUploadTest"/>
+        <method signature="HerokuAppUploadTest.TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@56673b2c]" name="TestCaseVerifyFileUpload" class="tests.HerokuAppUploadTest"/>
       </group> <!-- heroku -->
     </groups>
-    <test started-at="2024-10-15T18:23:48Z" name="Test" finished-at="2024-10-15T18:24:35Z" duration-ms="47659">
+    <test started-at="2024-10-15T18:52:07Z" name="Test" finished-at="2024-10-15T18:52:58Z" duration-ms="50625">
       <class name="tests.HerokuAppUploadTest">
-        <test-method is-config="true" signature="setUpHerokuApp()[pri:0, instance:tests.HerokuAppUploadTest@58ce9668]" started-at="2024-10-15T23:54:23Z" name="setUpHerokuApp" finished-at="2024-10-15T23:54:23Z" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="setUpHerokuApp()[pri:0, instance:tests.HerokuAppUploadTest@56673b2c]" started-at="2024-10-16T00:22:43Z" name="setUpHerokuApp" finished-at="2024-10-16T00:22:43Z" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpHerokuApp -->
-        <test-method signature="TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@58ce9668]" started-at="2024-10-15T23:54:23Z" name="TestCaseVerifyFileUpload" finished-at="2024-10-15T23:54:27Z" duration-ms="3731" status="PASS">
+        <test-method signature="TestCaseVerifyFileUpload()[pri:14, instance:tests.HerokuAppUploadTest@56673b2c]" started-at="2024-10-16T00:22:43Z" name="TestCaseVerifyFileUpload" finished-at="2024-10-16T00:22:47Z" duration-ms="3832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyFileUpload -->
       </class> <!-- tests.HerokuAppUploadTest -->
       <class name="tests.PracticeFormTestCases">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:32Z" name="setUpSuite" finished-at="2024-10-15T23:53:48Z" duration-ms="15326" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:21:38Z" name="setUpSuite" finished-at="2024-10-16T00:22:07Z" duration-ms="29619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:48Z" name="setup" finished-at="2024-10-15T23:53:48Z" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:07Z" name="setup" finished-at="2024-10-16T00:22:07Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:48Z" name="TestCaseEnterFirstName" finished-at="2024-10-15T23:53:51Z" duration-ms="3200" status="PASS">
+        <test-method signature="TestCaseEnterFirstName()[pri:1, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:07Z" name="TestCaseEnterFirstName" finished-at="2024-10-16T00:22:11Z" duration-ms="3231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterFirstName -->
-        <test-method signature="TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:51Z" name="TestCaseEnterLastName" finished-at="2024-10-15T23:53:51Z" duration-ms="110" status="PASS">
+        <test-method signature="TestCaseEnterLastName()[pri:2, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterLastName" finished-at="2024-10-16T00:22:11Z" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterLastName -->
-        <test-method signature="TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:51Z" name="TestCaseEnterUserEmail" finished-at="2024-10-15T23:53:51Z" duration-ms="134" status="PASS">
+        <test-method signature="TestCaseEnterUserEmail()[pri:3, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterUserEmail" finished-at="2024-10-16T00:22:11Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterUserEmail -->
-        <test-method signature="TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:51Z" name="TestCaseSelectGender" finished-at="2024-10-15T23:53:51Z" duration-ms="133" status="PASS">
+        <test-method signature="TestCaseSelectGender()[pri:4, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseSelectGender" finished-at="2024-10-16T00:22:11Z" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseSelectGender -->
-        <test-method signature="TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:51Z" name="TestCaseEnterNumber" finished-at="2024-10-15T23:53:51Z" duration-ms="127" status="PASS">
+        <test-method signature="TestCaseEnterNumber()[pri:5, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterNumber" finished-at="2024-10-16T00:22:11Z" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterNumber -->
-        <test-method signature="TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:53:51Z" name="TestCaseEnterDOB" finished-at="2024-10-15T23:54:01Z" duration-ms="9548" status="PASS">
+        <test-method signature="TestCaseEnterDOB()[pri:6, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:11Z" name="TestCaseEnterDOB" finished-at="2024-10-16T00:22:21Z" duration-ms="9477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterDOB -->
-        <test-method signature="TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:01Z" name="TestCaseEnterSubjects" finished-at="2024-10-15T23:54:01Z" duration-ms="238" status="PASS">
+        <test-method signature="TestCaseEnterSubjects()[pri:7, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseEnterSubjects" finished-at="2024-10-16T00:22:21Z" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterSubjects -->
-        <test-method signature="TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:01Z" name="TestCaseCheckHobbies1" finished-at="2024-10-15T23:54:01Z" duration-ms="52" status="PASS">
+        <test-method signature="TestCaseCheckHobbies1()[pri:8, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseCheckHobbies1" finished-at="2024-10-16T00:22:21Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseCheckHobbies1 -->
-        <test-method signature="TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:01Z" name="TestCaseCheckHobbies2" finished-at="2024-10-15T23:54:01Z" duration-ms="50" status="PASS">
+        <test-method signature="TestCaseCheckHobbies2()[pri:9, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseCheckHobbies2" finished-at="2024-10-16T00:22:21Z" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseCheckHobbies2 -->
-        <test-method signature="TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:01Z" name="TestCaseCheckHobbies3" finished-at="2024-10-15T23:54:04Z" duration-ms="3047" status="PASS">
+        <test-method signature="TestCaseCheckHobbies3()[pri:10, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:21Z" name="TestCaseCheckHobbies3" finished-at="2024-10-16T00:22:24Z" duration-ms="3065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseCheckHobbies3 -->
-        <test-method signature="TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:04Z" name="TestCaseUploadProfilePicture" finished-at="2024-10-15T23:54:07Z" duration-ms="3078" status="PASS">
+        <test-method signature="TestCaseUploadProfilePicture()[pri:11, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:24Z" name="TestCaseUploadProfilePicture" finished-at="2024-10-16T00:22:27Z" duration-ms="3078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseUploadProfilePicture -->
-        <test-method signature="TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:07Z" name="TestCaseEnterUserAddress" finished-at="2024-10-15T23:54:07Z" duration-ms="107" status="PASS">
+        <test-method signature="TestCaseEnterUserAddress()[pri:12, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:27Z" name="TestCaseEnterUserAddress" finished-at="2024-10-16T00:22:27Z" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterUserAddress -->
-        <test-method signature="TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:07Z" name="TestCaseEnterUserSateAndCity" finished-at="2024-10-15T23:54:23Z" duration-ms="15497" status="PASS">
+        <test-method signature="TestCaseEnterUserSateAndCity()[pri:13, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:27Z" name="TestCaseEnterUserSateAndCity" finished-at="2024-10-16T00:22:43Z" duration-ms="15500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseEnterUserSateAndCity -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.PracticeFormTestCases@21ba0741]" started-at="2024-10-15T23:54:35Z" name="tearDownSuite" finished-at="2024-10-15T23:54:35Z" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:tests.PracticeFormTestCases@172b013]" started-at="2024-10-16T00:22:58Z" name="tearDownSuite" finished-at="2024-10-16T00:22:58Z" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
       </class> <!-- tests.PracticeFormTestCases -->
       <class name="tests.HerokuAppDynamicContentTestCases">
-        <test-method is-config="true" signature="setUpDynamicContent()[pri:0, instance:tests.HerokuAppDynamicContentTestCases@172b013]" started-at="2024-10-15T23:54:27Z" name="setUpDynamicContent" finished-at="2024-10-15T23:54:27Z" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="setUpDynamicContent()[pri:0, instance:tests.HerokuAppDynamicContentTestCases@2796aeae]" started-at="2024-10-16T00:22:47Z" name="setUpDynamicContent" finished-at="2024-10-16T00:22:47Z" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDynamicContent -->
-        <test-method signature="TestCaseVerifyContent()[pri:15, instance:tests.HerokuAppDynamicContentTestCases@172b013]" started-at="2024-10-15T23:54:27Z" name="TestCaseVerifyContent" finished-at="2024-10-15T23:54:35Z" duration-ms="7859" status="PASS">
+        <test-method signature="TestCaseVerifyContent()[pri:15, instance:tests.HerokuAppDynamicContentTestCases@2796aeae]" started-at="2024-10-16T00:22:47Z" name="TestCaseVerifyContent" finished-at="2024-10-16T00:22:54Z" duration-ms="7375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyContent -->
       </class> <!-- tests.HerokuAppDynamicContentTestCases -->
       <class name="tests.HerokuAppDynamicControlsTestCases">
-        <test-method is-config="true" signature="setUpDynamicControl()[pri:0, instance:tests.HerokuAppDynamicControlsTestCases@56673b2c]" started-at="2024-10-15T23:54:35Z" name="setUpDynamicControl" finished-at="2024-10-15T23:54:35Z" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="setUpDynamicControl()[pri:0, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:54Z" name="setUpDynamicControl" finished-at="2024-10-16T00:22:54Z" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpDynamicControl -->
-        <test-method signature="TestCaseVerifyCheckbox()[pri:16, instance:tests.HerokuAppDynamicControlsTestCases@56673b2c]" started-at="2024-10-15T23:54:35Z" name="TestCaseVerifyCheckbox" finished-at="2024-10-15T23:54:35Z" duration-ms="314" status="PASS">
+        <test-method signature="TestCaseVerifyCheckbox()[pri:16, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:54Z" name="TestCaseVerifyCheckbox" finished-at="2024-10-16T00:22:55Z" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseVerifyCheckbox -->
+        <test-method signature="TestCaseClickRemoveButton()[pri:17, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:55Z" name="TestCaseClickRemoveButton" finished-at="2024-10-16T00:22:55Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickRemoveButton -->
+        <test-method signature="TestCaseClickAddButton()[pri:18, instance:tests.HerokuAppDynamicControlsTestCases@b4711e2]" started-at="2024-10-16T00:22:55Z" name="TestCaseClickAddButton" finished-at="2024-10-16T00:22:58Z" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseClickAddButton -->
       </class> <!-- tests.HerokuAppDynamicControlsTestCases -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
