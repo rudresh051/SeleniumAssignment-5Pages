@@ -5,9 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import base.BaseTest;
 import pageObjects.HerokuAppDynamicControls;
 
-public class HerokuAppDynamicControlsTestCases {
+public class HerokuAppDynamicControlsTestCases extends BaseTest{
 	private HerokuAppDynamicControls herokuAppDynamicControlsVariable;
 	
 	@BeforeClass
