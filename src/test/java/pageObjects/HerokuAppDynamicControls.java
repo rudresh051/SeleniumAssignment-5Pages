@@ -25,9 +25,9 @@ public class HerokuAppDynamicControls {
 	@FindBy(xpath = "//button[text()='Add']") WebElement addButton;
 	@FindBy(xpath = "//button[text()='Enable']") WebElement enableButton;
 	@FindBy(xpath = "//button[text()='Disable']") WebElement disableButton;
-	@FindBy(xpath = "//p[text()='It's gone!']") WebElement goneText;
-	@FindBy(xpath = "//p[text()='It's enabled!']") WebElement enabledText;
-	@FindBy(xpath = "//p[text()='It's disabled!']") WebElement disabledText;
+	@FindBy(xpath = "//p[@id='message']") WebElement goneText;
+	@FindBy(xpath = "//p[@id='message']") WebElement enabledText;
+	@FindBy(xpath = "//p[@id='message']") WebElement disabledText;
 	
 	
 	// Methods
@@ -39,7 +39,8 @@ public class HerokuAppDynamicControls {
 		removeButton.click();
 	}
 	
-	public void clickOnAddButton() {
+	public void clickOnAddButton() throws InterruptedException {
+		Thread.sleep(10000);
 		wait.until(ExpectedConditions.visibilityOf(goneText));
 		addButton.click();
 	}
