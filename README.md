@@ -9,3 +9,6 @@ Notes
 1. Use ITestListener
 2. Generate Report
 3. Use TestNG, Page Object Model
+
+Report - ![image](https://github.com/user-attachments/assets/47958cd6-4de4-45ef-899f-2c291fae978a)
+
